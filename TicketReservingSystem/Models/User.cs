@@ -12,7 +12,7 @@ namespace TicketReservingSystem.Models
         public string Password{get;set;}
         public int Mobile{get;set;}
         public string Email{get;set;}
-        [Key, ForeignKey("UserGroup")]
+        [ForeignKey("UserGroup")]
         public int UserGroupID {get;set;}
 
 
