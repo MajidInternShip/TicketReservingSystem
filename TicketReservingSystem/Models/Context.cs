@@ -1,10 +1,9 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 namespace TicketReservingSystem.Models
 {
-    public class Context
+    public class Context : DbContext
     {
-        public Context()
-        {
-        }
+        
     }
 }
